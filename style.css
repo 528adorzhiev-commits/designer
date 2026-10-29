@@ -1,7 +1,83 @@
 body {
-    background-color:#b28b6c;
+    background-color: #b28b6c;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-nav {
-    background-color: #80624a;
+
+.tanaka-nav {
+    background-color: #000000;
+    border-radius: 0;
+    padding: 0;
+    border-bottom: 4px solid #E63946; 
+}
+
+
+.tanaka-brand {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    color: #FFFFFF !important;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #000000;
+}
+
+.square-accent {
+    width: 18px;
+    height: 18px;
+    background-color: #E63946; 
+    display: inline-block;
+    margin-right: 12px;
+}
+
+
+.tanaka-menu .nav-link {
+    color: #FFFFFF !important;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 1.25rem 1.5rem !important;
+    border-radius: 0;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.tanaka-menu .nav-link:hover {
+    background-color: #F4A261;
+    color: #000000 !important;
+}
+
+.tanaka-menu .nav-link.active {
+    background-color: #E63946; 
+    color: #FFFFFF !important;
+}
+
+
+.tanaka-toggler {
+    border: none;
+    border-radius: 0;
+    padding: 1rem;
+    background: transparent;
+}
+
+.tanaka-toggler:focus {
+    box-shadow: none;
+}
+
+.toggler-box {
+    display: block;
+    width: 22px;
+    height: 22px;
+    background-color: #FFFFFF;
+}
+
+.tanaka-heading {
+    font-size: 4rem;
+    font-weight: 900;
+    color: #000000;
+    letter-spacing: -1px;
+    margin-top: 2rem;
 }
